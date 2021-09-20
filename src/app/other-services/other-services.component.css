@@ -1,0 +1,11 @@
+.main{
+    margin: 120px;
+    margin-top: 50px;
+}
+p{
+    display: inline;
+}
+img{
+    width:150px;
+    padding:10px;
+}
