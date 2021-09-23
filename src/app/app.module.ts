@@ -4,14 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { WebservicesComponent } from './webservices/webservices.component';
 import { AboutComponent } from './about/about.component';
 import { OtherServicesComponent } from './other-services/other-services.component';
-
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
+    WebservicesComponent,
     AboutComponent,
     OtherServicesComponent
   ],
