@@ -7,6 +7,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { WebservicesComponent } from './webservices/webservices.component';
 import { AboutComponent } from './about/about.component';
 import { OtherServicesComponent } from './other-services/other-services.component';
+import { HomeComponent } from './home/home.component';
+import { DocsReqComponent } from './docs-req/docs-req.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { OtherServicesComponent } from './other-services/other-services.componen
     NavigationComponent,
     WebservicesComponent,
     AboutComponent,
-    OtherServicesComponent
+    OtherServicesComponent,
+    HomeComponent,
+    DocsReqComponent
   ],
   imports: [
     BrowserModule,
