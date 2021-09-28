@@ -21,8 +21,10 @@
 }
 
 .btn:hover{
-    
     background-color:rgb(21, 177, 81,0.5);
 }
 
+.row{
+    --bs-gutter-x:0;
+}
 
