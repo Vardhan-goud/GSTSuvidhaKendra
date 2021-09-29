@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   services:any=[];
   filteredServices:any=[];
 
-  constructor(dataService:DataService) {
+  constructor(public dataService:DataService) {
     this.services=dataService.docsData;
    }
 
