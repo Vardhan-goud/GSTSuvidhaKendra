@@ -41,7 +41,7 @@ export class DataService {
       ],
     },
     {
-      "name": 'GST-Registration-LLP/Partnership',
+      "name": 'GST-Registration-Partnership',
       "reqDocs": [
         'PAN Card of Firm',
         'PAN Card of All Partners',
