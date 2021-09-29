@@ -8,6 +8,7 @@ import { DocsReqComponent } from './docs-req/docs-req.component';
 import { MeesevaservicesComponent } from './meesevaservices/meesevaservices.component';
 import { MeesevadocsComponent } from './meesevadocs/meesevadocs.component';
 
+
 const routes: Routes = [
   {path:'',redirectTo:"home",pathMatch:"full"},
   {path:"home",component:HomeComponent},
