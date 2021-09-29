@@ -1,6 +1,8 @@
 img {
     width:100px;
 }
-.row{
+
+.col-sm-3,.row{
+    padding: 0;
     --bs-gutter-x:0;
 }
