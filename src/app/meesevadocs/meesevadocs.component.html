@@ -1,0 +1,17 @@
+<div class="row text-center mt-5">
+    <h1 class="text-danger">{{reqDocs.name}}</h1>
+    <h5 class="m-3">REQUIRED DOCUMENTS ARE GIVEN BELOW</h5>
+</div>
+<div class="row mt-3">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+        <ul class="list-group">
+            <li *ngFor="let doc of reqDocs.reqDocs" class="list-group-item">
+                {{doc}}
+            </li>
+        </ul>
+    </div>
+    <div class="col-sm-3"></div>
+    
+</div>
+

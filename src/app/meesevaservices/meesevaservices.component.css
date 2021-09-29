@@ -1,0 +1,30 @@
+.box{
+    border-top-style: solid;
+    border-top-color: orange;
+    border-left-style: solid;
+    border-left-color: rgb(255, 165, 0);
+    box-sizing: border-box;
+    border-radius:5px;
+}
+
+.heading{
+    background-color: rgb(95, 204, 123,0.5);
+    box-sizing:border-box;
+    padding:15px 0 15px 0;
+    text-transform:uppercase;
+    font-weight:700 ;
+}
+
+.btn{
+    background-color: rgb(120, 195, 218);
+    border:0;
+}
+
+.btn:hover{
+    background-color:rgb(21, 177, 81,0.5);
+}
+
+.row{
+    --bs-gutter-x:0;
+}
+

@@ -9,6 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { OtherServicesComponent } from './other-services/other-services.component';
 import { HomeComponent } from './home/home.component';
 import { DocsReqComponent } from './docs-req/docs-req.component';
+import { MeesevaservicesComponent } from './meesevaservices/meesevaservices.component';
+import { MeesevadocsComponent } from './meesevadocs/meesevadocs.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { DocsReqComponent } from './docs-req/docs-req.component';
     AboutComponent,
     OtherServicesComponent,
     HomeComponent,
-    DocsReqComponent
+    DocsReqComponent,
+    MeesevaservicesComponent,
+    MeesevadocsComponent
   ],
   imports: [
     BrowserModule,
