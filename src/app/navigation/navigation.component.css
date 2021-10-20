@@ -1,3 +1,19 @@
-.activeOption{
-    font-weight:800;
+:host {
+  --bs-gutter-x: 0;
+}
+
+.activeOption {
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.navbar {
+  background-color: rgb(154, 181, 211);
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Belgrano";
 }
