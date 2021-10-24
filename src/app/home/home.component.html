@@ -20,4 +20,8 @@
         </p>
     </div>
 </div>
+
+<div *ngIf="!filteredServices || filteredServices.length == 0">
+    <h3 class="mt-5 text-secondary text-center"><i class="fas fa-search me-2"></i>No Results Found</h3>
+</div>
     

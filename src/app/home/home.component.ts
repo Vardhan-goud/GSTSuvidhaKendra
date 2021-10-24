@@ -10,13 +10,15 @@ export class HomeComponent implements OnInit {
 
   services:any=[];
   filteredServices:any=[];
-
+ 
   constructor(public dataService:DataService) {
     this.services=dataService.docsData;
+
    }
 
   ngOnInit(): void {
     this.filteredServices=this.services;
+    
   }
   filterServices(event: any): void{
     if (event && event.target && event.target.value) {
